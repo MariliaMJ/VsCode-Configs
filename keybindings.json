@@ -1,0 +1,48 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+;",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+t ctrl+t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run All Tests"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run Focused Test"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Set Focused Test"
+    },
+    {
+        "key": "f6",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Debug Focused Test"
+    },
+    {
+        "key": "ctrl+t ctrl+f",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Test Current File"
+    }
+]
