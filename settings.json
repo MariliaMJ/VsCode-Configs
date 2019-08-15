@@ -5,26 +5,14 @@
     },
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "One Dark Pro Bold",
+    "workbench.colorTheme": "Palenight Theme",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
     "window.titleBarStyle": "custom",
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.tokenColorCustomizations": {
-        "[One Dark Pro Bold]": {
-          "textMateRules": [
-            {
-              "scope": "keyword.operator",
-              "settings": {
-                "foreground": "#c678dd",
-                "fontStyle": "bold"
-              },
-            }
-          ]
-        }
-      },
+    "editor.fontFamily": "Firicico",
+    "editor.fontLigatures": true,   
+    "vscode_custom_css.imports": ["file:///home/xerpa/Área de Trabalho/styles.css"],
+    "vscode_custom_css.policy": true,
     "editor.rulers": [80],
     "workbench.colorCustomizations": {
       "editorRuler.foreground": "#c678dd"
@@ -35,5 +23,24 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true
-  }
+  },
+  "[org]": {
+        
+    },
+    "files.associations": {
+      "*.org": "org"
+    },
+    "[elixir]": {
+      "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": ["constant", "boolean", "number", "keyword", "entity.name.type.class"],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    }    
 }
