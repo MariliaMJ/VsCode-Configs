@@ -36,7 +36,7 @@
     "editor.tokenColorCustomizations": {
       "textMateRules": [
         {
-          "scope": ["constant", "boolean", "number", "keyword", "entity.name.type.class"],
+          "scope": ["constant", "boolean", "number", "keyword", "keyword.control"],
           "settings": {
             "fontStyle": "italic"
           }
