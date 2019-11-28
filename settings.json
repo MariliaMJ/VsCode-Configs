@@ -3,20 +3,26 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Palenight Theme",
+    "window.zoomLevel": 2,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
     "window.titleBarStyle": "custom",
     "editor.fontFamily": "Firicico",
     "editor.fontLigatures": true,   
-    "vscode_custom_css.imports": ["file:///home/xerpa/Área de Trabalho/styles.css"],
+    "vscode_custom_css.imports": ["file:///Users/mariliamorais/styles.css"],
     "vscode_custom_css.policy": true,
     "editor.rulers": [80],
     "workbench.colorCustomizations": {
-      "editorRuler.foreground": "#c678dd"
+      "editorRuler.foreground": "#c678dd",
+      "statusBar.background": "#7647a2",
+      "activityBar.foreground": "#00ff9f",
+      "editor.background": "#292a44",
+      "activityBar.background": "#212136",
+      "terminal.background":  "#292a44"
   },
+  "terminal.integrated.scrollback": 100000,
   "todohighlight.isEnable": true,
   "git.autofetch": true,
   "files.watcherExclude": {
@@ -42,5 +48,9 @@
           }
         }
       ]
-    }    
+    },
+    "sync.gist": "854fd8fc4020ec98090c953ac3ba7691",
+    "vsnotes.defaultNotePath": "/Users/mariliamorais/Desktop/Notes",
+    "workbench.editor.showTabs": false,
+    "workbench.colorTheme": "Gatito Theme"
 }
