@@ -4,7 +4,7 @@
         "suppressShowKeyBindingsNotice": true
     },
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "simple-icons",
     "window.zoomLevel": 2,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
@@ -13,14 +13,33 @@
     "editor.fontLigatures": true,   
     "vscode_custom_css.imports": ["file:///Users/mariliamorais/styles.css"],
     "vscode_custom_css.policy": true,
-    "editor.rulers": [80],
+    "editor.rulers": [
+    
+    80],
     "workbench.colorCustomizations": {
       "editorRuler.foreground": "#c678dd",
       "statusBar.background": "#7647a2",
       "activityBar.foreground": "#00ff9f",
-      "editor.background": "#292a44",
+      //"editor.background": "#292a44",
       "activityBar.background": "#212136",
-      "terminal.background":  "#292a44"
+      "terminal.background":  "#292a44",
+      "terminal.ansiBlack": "#1e202b",
+      "terminal.ansiBlue": "#BD93F9",
+      "terminal.ansiBrightBlack": "#6272A4",
+      "terminal.ansiBrightBlue": "#D6ACFF",
+      "terminal.ansiBrightCyan": "#A4FFFF",
+      "terminal.ansiBrightGreen": "#69FF94",
+      "terminal.ansiBrightMagenta": "#FF92DF",
+      "terminal.ansiBrightRed": "#FF6E6E",
+      "terminal.ansiBrightWhite": "#FFFFFF",
+      "terminal.ansiBrightYellow": "#FFFFA5",
+      "terminal.ansiCyan": "#8BE9FD",
+      "terminal.ansiGreen": "#50FA7B",
+      "terminal.ansiMagenta": "#FF79C6",
+      "terminal.ansiRed": "#FF5555",
+      "terminal.ansiWhite": "#F8F8F2",
+      "terminal.ansiYellow": "#F1FA8C",
+  
   },
   "terminal.integrated.scrollback": 100000,
   "todohighlight.isEnable": true,
@@ -34,17 +53,25 @@
         
     },
     "files.associations": {
+
+
       "*.org": "org"
     },
     "[elixir]": {
-      "editor.defaultFormatter": "JakeBecker.elixir-ls"
+      "editor.defaultFormatter": "elixir-lsp.elixir-ls"
     },
     "editor.tokenColorCustomizations": {
       "textMateRules": [
         {
-          "scope": ["constant", "boolean", "number", "keyword", "keyword.control"],
+          "scope": ["constant", "boolean", "number", "keyword.control", "keyword"],
           "settings": {
             "fontStyle": "italic"
+          },
+        },
+        {
+          "scope": ["variable.other.constant"],
+          "settings": {
+            "foreground": "#ffa6c9"
           }
         }
       ]
@@ -52,5 +79,54 @@
     "sync.gist": "854fd8fc4020ec98090c953ac3ba7691",
     "vsnotes.defaultNotePath": "/Users/mariliamorais/Desktop/Notes",
     "workbench.editor.showTabs": false,
-    "workbench.colorTheme": "Gatito Theme"
+    "diffEditor.ignoreTrimWhitespace": false,
+    "dart.flutterSdkPath": "/Users/mariliamorais/Downloads/flutter 2",
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+        80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": false,
+      "files.insertFinalNewline": true
+    },
+    "editor.formatOnSave": true,
+    "peacock.favoriteColors": [
+      {
+        "name": "Sweet Pie",
+        "value": "#f79ca7"
+      },
+      {
+        "name": "Cinnamon Blue",
+        "value": "#85e3ff"
+      },
+      {
+        "name": "Pompompurin Yellow",
+        "value": "#FDFD96"
+      },
+      {
+        "name": "Minty Green",
+        "value": "#AFF8DB"
+      },
+      {
+        "name": "Delicious Purple",
+        "value": "#B28DFF"
+      },
+      {
+        "name": "Refreshing Orange",
+        "value": "#ffcba4"
+      },
+    ],
+    "workbench.colorTheme": "Pastel Pixels",
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": null,
+    "liveshare.audio.startCallOnShare": true,
+    "workbench.editorAssociations": [
+    
+    ]
 }
