@@ -15,12 +15,18 @@
     "vscode_custom_css.policy": true,
     "editor.rulers": [
     
+    
     80],
     "workbench.colorCustomizations": {
       "editorRuler.foreground": "#c678dd",
+      "editorGroup.border": "#f79ca7",
+      "scrollbarSlider.background": "#f4adad56",
+      "scrollbarSlider.hoverBackground": "#f586ad",
+      "tab.activeBorder":"#f79ca7",
       "statusBar.background": "#7647a2",
-      "activityBar.foreground": "#00ff9f",
-      //"editor.background": "#292a44",
+      "editorGutter.background": "#292a44",
+      //"activityBar.foreground": "#00ff9f",
+      "editor.background": "#393a55",
       "activityBar.background": "#212136",
       "terminal.background":  "#292a44",
       "terminal.ansiBlack": "#1e202b",
@@ -39,6 +45,10 @@
       "terminal.ansiRed": "#FF5555",
       "terminal.ansiWhite": "#F8F8F2",
       "terminal.ansiYellow": "#F1FA8C",
+      "sideBar.background": "#2e2f49",
+      //"editor.selectionBackground": "#707474ec",
+      //"editor.selectionForeground": "#707474ec",
+
   
   },
   "terminal.integrated.scrollback": 100000,
@@ -58,27 +68,49 @@
       "*.org": "org"
     },
     "[elixir]": {
-      "editor.defaultFormatter": "elixir-lsp.elixir-ls"
+      "editor.defaultFormatter": "JakeBecker.elixir-ls"
     },
     "editor.tokenColorCustomizations": {
+      //"functions":  "#ff67cc",
       "textMateRules": [
         {
-          "scope": ["constant", "boolean", "number", "keyword.control", "keyword"],
+          "scope": ["constant", "boolean", "number", "keyword.control", "keyword", "keyword.operator.sigils_1.elixir"],
           "settings": {
             "fontStyle": "italic"
           },
         },
-        {
-          "scope": ["variable.other.constant"],
-          "settings": {
-            "foreground": "#ffa6c9"
-          }
-        }
+        // {
+        //   "scope": ["variable.other.constant"],
+        //   "settings": {
+        //     "foreground": "#a201c3"
+        //   }
+        // },
+        //  {
+        //     "scope": ["keyword.other.special-method", "keyword.operator.other.elixir", "keyword.operator.sigils_1.elixir", "keyword.control.elixir"],
+        //     "settings": {
+        //       "foreground":"#ffc430"
+        //     }
+        //   },
+        //  {
+        //     "scope": ["keyword.control", "punctuation"],
+        //     "settings": {
+        //       "foreground":  "#ff00cd"
+        //     }
+        //   },
+        //   {
+        //     "scope": [
+        //       "parameter.variable.function.elixir",
+        //       "source.elixir"
+        //     ],
+        //     "settings": {
+        //       "foreground": "#f3d9f3"
+        //     }
+         // },
       ]
     },
     "sync.gist": "854fd8fc4020ec98090c953ac3ba7691",
     "vsnotes.defaultNotePath": "/Users/mariliamorais/Desktop/Notes",
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "dart.flutterSdkPath": "/Users/mariliamorais/Downloads/flutter 2",
     "[dart]": {
@@ -97,7 +129,43 @@
     "editor.formatOnSave": true,
     "peacock.favoriteColors": [
       {
-        "name": "Sweet Pie",
+        "name": "Angular Red",
+        "value": "#dd0531"
+      },
+      {
+        "name": "Azure Blue",
+        "value": "#007fff"
+      },
+      {
+        "name": "JavaScript Yellow",
+        "value": "#f9e64f"
+      },
+      {
+        "name": "Mandalorian Blue",
+        "value": "#1857a4"
+      },
+      {
+        "name": "Node Green",
+        "value": "#215732"
+      },
+      {
+        "name": "React Blue",
+        "value": "#61dafb"
+      },
+      {
+        "name": "Something Different",
+        "value": "#832561"
+      },
+      {
+        "name": "Svelte Orange",
+        "value": "#ff3d00"
+      },
+      {
+        "name": "Vue Green",
+        "value": "#42b883"
+      },
+      {
+        "name": "MyMelody Magenta",
         "value": "#f79ca7"
       },
       {
@@ -109,24 +177,34 @@
         "value": "#FDFD96"
       },
       {
-        "name": "Minty Green",
+        "name": "Keropi Green",
         "value": "#AFF8DB"
       },
       {
-        "name": "Delicious Purple",
+        "name": "Kuromi Purple",
         "value": "#B28DFF"
       },
       {
         "name": "Refreshing Orange",
         "value": "#ffcba4"
-      },
+      }
     ],
-    "workbench.colorTheme": "Pastel Pixels",
     "todo-tree.tree.showScanModeButton": false,
     "editor.tabSize": 2,
     "editor.codeActionsOnSave": null,
     "liveshare.audio.startCallOnShare": true,
     "workbench.editorAssociations": [
+
     
-    ]
+    ],
+    "editor.semanticTokenColorCustomizations": null,
+    "launch": {
+
+      "configurations": [],
+      "compounds": []
+    },
+    "terminal.integrated.automationShell.linux": "",
+    "editor.tabCompletion": "on",
+    "elixir.useElixirSense": false,
+    "workbench.colorTheme": "Firefox Dark"
 }
